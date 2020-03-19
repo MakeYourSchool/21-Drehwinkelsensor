@@ -1,30 +1,24 @@
-## Rotary_Angle_Sensor
+Drehwinkelsensor
+----
+*(Seeed Studio Grove - Rotary Angle Sensor)*
 
+<img src=https://www.makeyourschool.de/wp-content/uploads/2018/10/21_drehwinkelsensor-1024x1024.jpg width=400px>
 
-![](https://statics3.seeedstudio.com/images/product/GroveRotaryP.jpg)
+Der Drehwinkelsensor kann den Drehwinkel seiner Drehachse bestimmen. Dafür besteht der Sensor aus einem Drehpotentiometer, das abhängig des Drehwinkels die Widerstandsverhältnisse zwischen seinen Anschlüssen verändert. Durch die bereits integrierte Verschaltung als Spannungsteiler gibt das Modul an seinem Anschluss eine analoge Spannung direkt abhängig vom Drehwinkel aus. Der Sensor kann direkt oder mithilfe des Grove Shields an einen analogen Pin am Arduino angeschlossen werden.
 
-[Grove - Rotary Angle Sensor(P)
-](https://www.seeedstudio.com/s/Grove-Rotary-Angle-Sensor(P)-p-1242.html)
-
-The rotary angle sensor produces analog output between 0 and Vcc (5V DC with Seeeduino) on its D1 connector. The D2 connector is not used. The angular range is 300 degrees with a linear change in value. The resistance value is 10k ohms, perfect for Arduino use. This may also be known as a “potentiometer ”.
-
-For more information, please refer to [Grove_Rotary_Angle_Sensor][1]
+Eine der häufigsten Anwendungen eines Drehwinkelsensors (oder Drehpotentiometers) ist die Nutzung des Sensors als Drehknopf und damit als Eingabe. Mit einem solchen Drehknopf kann so beispielsweise die Helligkeit einer Leuchte oder die Geschwindigkeit eines Motors eingestellt werden.
 
 ----
-This software is written by Frankie Chu for seeed studio<br>
-and is licensed under [The MIT License](http://opensource.org/licenses/mit-license.php). Check License.txt for more information.<br>
 
-Contributing to this software is warmly welcomed. You can do this basically by<br>
-[forking](https://help.github.com/articles/fork-a-repo), committing modifications and then [pulling requests](https://help.github.com/articles/using-pull-requests) (follow the links above<br>
-for operating guide). Adding change log and your contact into file header is encouraged.<br>
-Thanks for your contribution.
+In diesem Repository findet ihr **Bibliotheken und Beispiel-Codes**, mit denen der hier vorliegende Sensor getestet werden kann. Wir richten uns hiermit an **jeden Mentor und jede Mentorin aus dem Rahmen von Make Your School** und ermutigen euch, die hier zusammengestellten Codes **nach Bedarf** und individuell gemachten Erfahrungen **anzupassen**. Beispiele können einfach im Ordner /examples hinzugefügt oder angepasst werden. Wir versuchen das Repository regelmäßig mit Hilfe von euren Änderungsvorschlägen zu aktualisieren.
 
-Seeed is a hardware innovation platform for makers to grow inspirations into differentiating products. By working closely with technology providers of all scale, Seeed provides accessible technologies with quality, speed and supply chain knowledge. When prototypes are ready to iterate, Seeed helps productize 1 to 1,000 pcs using in-house engineering, supply chain management and agile manufacture forces. Seeed also team up with incubators, Chinese tech ecosystem, investors and distribution channels to portal Maker startups beyond.
+Das Repository basiert grundlegend auf den veröffentlichten Informationen und Codes von Seeed Studio. 
+Die deutsche Übersetzung stammt von [Make Your School](https://www.makeyourschool.de/). Fehlinterpretationen und Änderungen vorbehalten. Die Informationen dürfen frei genutzt, angepasst und verbreitet werden, solange die [Nutzungsrechte von Seeed Studio](https://github.com/Seeed-Studio/Grove_Dust_Sensor/blob/master/License.txt) beachtet werden. 
 
+**Weitere Informationen:**
 
-[1]:http://wiki.seeedstudio.com/Grove-Rotary_Angle_Sensor/
+[Repository von Seed Studio](https://github.com/Seeed-Studio/)
 
+[Offizielles Wiki von Seed Studio](http://wiki.seeedstudio.com/Grove/)
 
-
-
-[![Analytics](https://ga-beacon.appspot.com/UA-46589105-3/Rotary_Angle_Sensor)](https://github.com/igrigorik/ga-beacon)
+[Materialkoffer von Make Your School](https://www.makeyourschool.de/material/)
